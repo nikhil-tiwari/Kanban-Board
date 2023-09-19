@@ -12,7 +12,7 @@
 * color that was selected
 
 ### Creating ticket
-* Creating the ticket
+* Creating UI
     * color strip
     * random id
     * text 
