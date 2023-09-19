@@ -4,8 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kanban Board</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+    <!-- tooblox container -->
+    <header class="toolbox-cont">
+        <div class="toolbox-text-cont"><h1>Kanban Board</h1></div>
+        <div class="toolbox-priority-cont">
+            <div class="color red"></div>
+            <div class="color blue"></div>
+            <div class="color green"></div>
+            <div class="color purple"></div>
+        </div>
+        <div class="toolbox-btn-cont">
+            <div class="add-btn">
+                <i class="fa-solid fa-plus largeicons"></i>
+            </div>
+            <div class="del-btn">
+                <i class="fa-solid fa-trash largeicons"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- main container -->
+    <main class="main-cont">
+
+        <div class="ticket-cont">
+            <div class="ticket-color red"></div>
+            <div class="ticket-id">i34dt</div>
+            <div class="ticket-area">Some task</div>
+        </div>
+
+        <div class="ticket-cont">
+            <div class="ticket-color blue"></div>
+            <div class="ticket-id">i34dt</div>
+            <div class="ticket-area">Some task</div>
+        </div>
+
+        <div class="ticket-cont">
+            <div class="ticket-color blue"></div>
+            <div class="ticket-id">i34dt</div>
+            <div class="ticket-area">Some task</div>
+        </div>
+
+        <div class="ticket-cont">
+            <div class="ticket-color green"></div>
+            <div class="ticket-id">i34dt</div>
+            <div class="ticket-area">Some task</div>
+        </div>
+
+        <div class="ticket-cont">
+            <div class="ticket-color red"></div>
+            <div class="ticket-id">i34dt</div>
+            <div class="ticket-area">Some task</div>
+        </div>
+
+        <div class="ticket-cont">
+            <div class="ticket-color purple"></div>
+            <div class="ticket-id">i34dt</div>
+            <div class="ticket-area">Some task</div>
+        </div>
+
+        <div class="ticket-cont">
+            <div class="ticket-color blue"></div>
+            <div class="ticket-id">i34dt</div>
+            <div class="ticket-area">Some task</div>
+        </div>
+
+    </main>
+
+    <!-- modal container -->
+    <div class="modal-cont">
+        <textarea class="textarea-cont" placeholder="Enter your text"></textarea>
+        <div class="modal-priority-cont">
+            <div class="color_modal red selected"></div>
+            <div class="color_modal blue"></div>
+            <div class="color_modal green"></div>
+            <div class="color_modal purple"></div>
+        </div>
+    </div> 
+
+    <script src="text.js"></script>
 </body>
 </html>

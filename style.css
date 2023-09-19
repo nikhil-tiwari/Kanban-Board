@@ -1,0 +1,165 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #dadff7;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.toolbox-cont {
+    background-color: #272727;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.toolbox-text-cont {
+    height: 6rem;
+    width: 15rem;
+    background-color: #272727;
+    color: silver;
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toolbox-text-cont:hover {
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.toolbox-priority-cont {
+    background-color: white;
+    height: 3rem;
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.color {
+    height: 60%;
+    width: 20%;
+}
+
+.color:hover {
+    border: 4px solid black;
+    cursor: pointer;
+    height: 65%;
+    width: 23%;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.toolbox-btn-cont {
+    background-color: white;
+    height: 3rem;
+    width: 8rem;
+    display: flex;
+}
+
+.add-btn, .del-btn {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.toolbox-btn-cont>div:hover {
+    border: 4px solid black;
+    cursor: pointer;
+}
+
+.largeicons {
+    font-size: 1.8rem;
+}
+
+.main-cont {
+    height: 100vh;
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    gap: 3rem;
+}
+
+.ticket-cont {
+    height: 10rem;
+    width: 15rem;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 0.5rem;
+    background-color: #f5f1ed;
+}
+
+.modal-cont {
+    height: 25rem;
+    width: 40rem;
+    background-color: beige;
+    border: 2px solid black;
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    display: flex;
+    display: none;
+}
+
+.textarea-cont {
+    height: 100%;
+    width: 75%;
+    border: 3px solid black;
+    resize: none;
+    font-size: 2rem;
+}
+
+.modal-priority-cont {
+    height: 100%;
+    width: 25%;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.color_modal {
+    height: 15%;
+    width: 60%;
+}
+
+.color_modal:hover {
+    height: 20%;
+    width: 70%;
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+.selected {
+    border: 5px solid #3f2b27;
+}
+
