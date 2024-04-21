@@ -1,7 +1,16 @@
+:root {
+    --red: #d63031;
+    --blue: #0984e3;
+    --green: #00b894;
+    --purple: #6c5ce7;
+    --modal_cont_color: #b2bec3;
+}
+
 html, body {
     margin: 0px;
     padding: 0px;
     background-color: #dadff7;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 * {
@@ -22,7 +31,6 @@ html, body {
     background-color: #272727;
     color: silver;
     font-size: 0.9rem;
-    font-family: Arial, Helvetica, sans-serif;
     margin-left: 8rem;
     display: flex;
     justify-content: center;
@@ -56,19 +64,19 @@ html, body {
 }
 
 .red {
-    background-color: red;
+    background-color: var(--red);
 }
 
 .blue {
-    background-color: blue;
+    background-color: var(--blue);
 }
 
 .green {
-    background-color: green;
+    background-color: var(--green);
 }
 
 .purple {
-    background-color: purple;
+    background-color: var(--purple);
 }
 
 .toolbox-btn-cont {
@@ -144,7 +152,7 @@ html, body {
 .modal-cont {
     height: 25rem;
     width: 40rem;
-    background-color: beige;
+    background-color: var(--modal_cont_color);
     border: 2px solid black;
     position: fixed;
     top: 25%;
@@ -159,6 +167,7 @@ html, body {
     border: 3px solid black;
     resize: none;
     font-size: 2rem;
+    padding: 1rem;
 }
 
 .modal-priority-cont {
@@ -185,6 +194,10 @@ html, body {
 }
 
 .selected {
+    border: 5px solid #3f2b27;
+}
+
+.selectedForFilter {
     border: 5px solid #3f2b27;
 }
 
